@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { v4 as uuid } from "uuid";
 
-const ws = new WebSocket("ws://localhost:3001"); // Use wss for secure WS
+const ws = new WebSocket("https://gridapp-backend.onrender.com/"); // Use wss for secure WS
 const deviceId = uuid();
 
 export default function GridApp() {
