@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { v4 as uuid } from "uuid";
 
 const ws = new WebSocket("https://gridapp-backend.onrender.com/");
